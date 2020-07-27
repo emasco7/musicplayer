@@ -1,0 +1,40 @@
+{
+  "name": "musicplayer",
+  "version": "1.0.0",
+  "description": "a music player created with nativescript-vue",
+  "author": "EMASCO <emascochukwujindu@gmail.com>",
+  "license": "MIT",
+  "nativescript": {
+    "id": "musicplayer.music",
+    "templateVersion": "v2",
+    "tns-android": {
+      "version": "6.5.0"
+    },
+    "tns-ios": {
+      "version": "6.5.0"
+    }
+  },
+  "dependencies": {
+    "@vue/devtools": "^5.3.3",
+    "nativescript-fonticon": "^2.0.2",
+    "nativescript-socketio": "^3.3.1",
+    "nativescript-toasty": "^3.0.0-alpha.2",
+    "nativescript-vue": "^2.6.1",
+    "nativescript-vue-devtools": "^1.4.0",
+    "tns-core-modules": "^6.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.1.0",
+    "nativescript-dev-webpack": "^1.5.1",
+    "nativescript-vue-template-compiler": "^2.6.0",
+    "nativescript-worker-loader": "~0.11.0",
+    "node-sass": "^4.13.1",
+    "tns-platform-declarations": "^6.5.1",
+    "typescript": "^3.8.3",
+    "@types/node": "^13.11.1",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1"
+  }
+}
